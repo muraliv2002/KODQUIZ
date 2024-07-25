@@ -1,0 +1,37 @@
+.quiz
+{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(85, 220, 200);
+}
+
+.quiz ul li
+{
+    display: flex;
+    ;border: 2px solid  black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.quiz ul li:hover
+{
+background-color:burlywood ;
+}
+
+.quiz button
+{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(220, 85, 188);
+    cursor: pointer;
+    background-color:burlywood 
+}
